@@ -12,7 +12,7 @@
 #include "esp_system.h"
 #include "esp_spi_flash.h"
 
-#define ESP32_WIFIMANAGER_TAG   "ESP32:UTIL"
+#define ESP32_UTIL_TAG          "ESP32:UTIL"
 
 #define PROJECT_NAME            "RGB NTP Weather Clock"
 #define PROJECT_START_DATE      "April 17 2018"
