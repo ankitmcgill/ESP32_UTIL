@@ -21,4 +21,6 @@
 void ESP32_UTIL_PrintProjectInfo(void);
 void ESP32_UTIL_PrintChipInfo(void);
 
+void ESP32_UTIL_DelayBlockingMs(uint32_t ms);
+
 #endif

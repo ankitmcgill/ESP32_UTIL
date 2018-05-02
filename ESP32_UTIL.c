@@ -5,6 +5,8 @@
 //ankit.bhatnagarindia@gmail.com
 
 #include "ESP32_UTIL.h"
+#include "freertos/FreeRTOS.h"
+#include "freertos/task.h"
 
 void ESP32_UTIL_PrintProjectInfo(void)
 {
@@ -53,4 +55,11 @@ void ESP32_UTIL_PrintChipInfo(void)
 
     printf("FLASH SIZE : %uMb\n", spi_flash_get_chip_size() / (1024 * 1024));
     printf("\n");
+}
+
+void ESP32_UTIL_DelayBlockingMs(uint32_t ms)
+{
+    //BLOCKING DELA OF SPECIFIED MS
+
+    vTaskDelay(ms / portTICK_PERIOD_MS);
 }
