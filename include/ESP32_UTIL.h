@@ -14,8 +14,8 @@
 
 #define ESP32_UTIL_TAG          "ESP32:UTIL"
 
-#define PROJECT_NAME            "RGB NTP Weather Clock"
-#define PROJECT_START_DATE      "April 17 2018"
+#define PROJECT_NAME            "RODA AWANA SDN - DIRECTOR CONNECT"
+#define PROJECT_START_DATE      "August 20 2018"
 #define PROJECT_VERSION         "1.0"
 
 void ESP32_UTIL_PrintProjectInfo(void);
