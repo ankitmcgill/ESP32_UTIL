@@ -16,6 +16,7 @@ void ESP32_UTIL_PrintProjectInfo(void)
     printf("Project Name : \t\t"PROJECT_NAME"\n");
     printf("Project Start Date : \t"PROJECT_START_DATE"\n");
     printf("Project Version : \t"PROJECT_VERSION"\n");
+    printf("\n");
 }
 
 void ESP32_UTIL_PrintChipInfo(void)
